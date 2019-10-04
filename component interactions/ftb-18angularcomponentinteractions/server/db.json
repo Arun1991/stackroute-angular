@@ -1,0 +1,39 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Angular",
+      "text": "Learn Angular from angular.io"
+    },
+    {
+      "id": 2,
+      "title": "Material UI",
+      "text": "Learn material ui from material.angular.io"
+    },
+    {
+      "title": "mytitle1",
+      "text": "mytext1",
+      "id": 3
+    },
+    {
+      "title": "Test Data",
+      "text": "Test Data",
+      "id": 4
+    },
+    {
+      "title": "Java",
+      "text": "Java Note",
+      "id": 5
+    },
+    {
+      "title": "Test Data",
+      "text": "Test Data",
+      "id": 6
+    },
+    {
+      "title": "ssssssss",
+      "text": "ssssss",
+      "id": 7
+    }
+  ]
+}

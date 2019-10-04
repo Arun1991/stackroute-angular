@@ -1,0 +1,14 @@
+.note-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 70vw;
+}
+
+.note-form
+{
+    display: flex;
+    flex-direction: column;
+}

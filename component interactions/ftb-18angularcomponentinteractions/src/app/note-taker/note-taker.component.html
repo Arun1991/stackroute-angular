@@ -1,0 +1,30 @@
+<div class="note-container">
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Take a Note
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <div class="note-form">
+            <form class="note-form" #noteFormRef="ngForm" (ngSubmit)="takeNotes(noteFormRef)">
+                <mat-form-field>
+                    <input matInput [(ngModel)]="note.title" name="title" placeholder="Enter Title"
+                    required minlength="6" #titleRef="ngModel">
+                </mat-form-field>
+                <small *ngIf="titleRef.touched && titleRef.errors?.required">Title is required field</small>
+                <small *ngIf="titleRef.touched && titleRef.errors?.minlength">Title must be of 6 characters</small>
+
+                <mat-form-field>
+                    <textarea [(ngModel)]="note.text" name="text" matInput placeholder="Enter Text"
+                    required minlength="6" #textRef="ngModel"></textarea>
+                    
+                </mat-form-field>
+                <small *ngIf="textRef.touched && textRef.errors?.required">Text is required field</small>
+                <small *ngIf="textRef.touched && textRef.errors?.minlength">Text must be of 6 characters</small>
+
+                <button mat-button>Done</button>
+            </form>
+        </div>
+    </mat-expansion-panel>
+</div>
