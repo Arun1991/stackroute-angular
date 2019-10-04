@@ -1,0 +1,28 @@
+Material UI
+
+1. npm install --save @angular/material @angular/cdk @angular/animations
+
+2. Once the animations package is installed, import BrowserAnimationsModule into your application to enable animations support.
+
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
+@NgModule({
+  ...
+  imports: [BrowserAnimationsModule],
+  ...
+})
+
+
+3. import the component module you want to use
+
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+ then add "MatToolbarModule"  to imports section
+
+4. include a theme
+
+goto styles.css and then add the below
+
+5. Gesture Support
+
+npm install --save hammerjs
