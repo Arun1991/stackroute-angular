@@ -1,0 +1,29 @@
+.note-container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 70vw;
+}
+
+.note-form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.note-card-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    margin-top: 20%;
+}
+
+.note-card
+{
+    align-content: space-between;
+}
