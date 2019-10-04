@@ -1,0 +1,24 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Angular",
+      "text": "Learn Angular from angular.io"
+    },
+    {
+      "id": 2,
+      "title": "Material UI",
+      "text": "Learn material ui from material.angular.io"
+    },
+    {
+      "title": "mytitle1",
+      "text": "mytext1",
+      "id": 3
+    },
+    {
+      "title": "mytitle1",
+      "text": "mytext1",
+      "id": 4
+    }
+  ]
+}
